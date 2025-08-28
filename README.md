@@ -1,4 +1,4 @@
-# Anurag Kumar - Portfolio
+# Anurag Chaturvedi - Portfolio
 
 A modern, responsive portfolio website built with React and Tailwind CSS, showcasing my skills, projects, and experience as a Full Stack Developer.
 
