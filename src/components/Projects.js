@@ -133,7 +133,8 @@ const Projects = () => {
                       boxShadow: "0 15px 30px rgba(34, 197, 94, 0.4)"
                     }}
                     whileTap={{ scale: 0.95 }}
-                    className="flex-1 inline-flex items-center justify-center px-4 py-2.5 bg-gradient-to-r from-green-500 to-emerald-600 text-white rounded-lg font-medium shadow-lg hover:shadow-xl transition-all duration-300 text-sm"
+                    transition={{ duration: 0.2, ease: "easeOut" }}
+                    className="flex-1 inline-flex items-center justify-center px-4 py-2.5 bg-gradient-to-r from-green-500 to-emerald-600 text-white rounded-lg font-medium shadow-lg hover:shadow-xl transition-all duration-200 text-sm"
                   >
                     <FiExternalLink className="mr-2" size={14} />
                     Live Demo
@@ -151,7 +152,8 @@ const Projects = () => {
                       boxShadow: "0 15px 30px rgba(147, 51, 234, 0.3)"
                     }}
                     whileTap={{ scale: 0.95 }}
-                    className="flex-1 inline-flex items-center justify-center px-4 py-2.5 border-2 border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-300 rounded-lg font-medium hover:border-purple-500 hover:text-purple-600 dark:hover:text-purple-400 transition-all duration-300 text-sm"
+                    transition={{ duration: 0.2, ease: "easeOut" }}
+                    className="flex-1 inline-flex items-center justify-center px-4 py-2.5 border-2 border-gray-300 dark:border-gray-600 text-gray-800 dark:text-gray-200 rounded-lg font-medium hover:border-purple-500 hover:text-purple-600 dark:hover:text-purple-400 transition-all duration-200 text-sm"
                   >
                     <FiGithub className="mr-2" size={14} />
                     View Code

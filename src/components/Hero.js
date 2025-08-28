@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import { motion } from 'framer-motion';
 import Typed from 'typed.js';
-import { FiDownload, FiGithub, FiLinkedin, FiMail } from 'react-icons/fi';
+import { FiDownload, FiGithub, FiLinkedin, FiMail, FiCode } from 'react-icons/fi';
 import { SiGeeksforgeeks, SiLeetcode } from 'react-icons/si';
 
 const Hero = () => {
@@ -29,7 +29,7 @@ const Hero = () => {
     { label: 'Projects', value: '4+' },
     { label: 'Internships', value: '1' },
     { label: 'Technologies', value: '12+' },
-    { label: 'LeetCode Problems', value: '300+' },
+    { label: 'DSA Problems', value: '300+' },
   ];
 
   const socialLinks = [
@@ -37,6 +37,7 @@ const Hero = () => {
     { icon: FiLinkedin, href: 'https://www.linkedin.com/in/anurag-chaturvedi-b62a7024b/', label: 'LinkedIn', color: '#0077B5', shadowColor: 'rgba(0, 119, 181, 0.4)' },
     { icon: SiGeeksforgeeks, href: 'https://www.geeksforgeeks.org/user/anurag5649/', label: 'GeeksforGeeks', color: '#0F9D58', shadowColor: 'rgba(15, 157, 88, 0.4)' },
     { icon: SiLeetcode, href: 'https://leetcode.com/u/ANURAG-SHIKHAR_4956/', label: 'LeetCode', color: '#FFA116', shadowColor: 'rgba(255, 161, 22, 0.4)' },
+    { icon: FiCode, href: 'https://codolio.com/profile/Anurag-Chaturvedi', label: 'Codolio', color: '#6366F1', shadowColor: 'rgba(99, 102, 241, 0.4)' },
     { icon: FiMail, href: 'mailto:ak9656255@gmail.com', label: 'Email', color: '#EA4335', shadowColor: 'rgba(234, 67, 53, 0.4)' },
   ];
 
@@ -141,7 +142,7 @@ const Hero = () => {
             </motion.a>
             
             <motion.a
-              href="/resume/Anurags_Resume.pdf"
+              href="/resume/Anurag_Resume_P.pdf"
               download
               whileHover={{ 
                 scale: 1.08, 
@@ -175,7 +176,7 @@ const Hero = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 1, ease: "easeOut" }}
-            className="flex justify-center lg:justify-start space-x-4"
+            className="flex justify-center lg:justify-start space-x-4 items-center"
           >
             {socialLinks.map((social, index) => (
               <motion.a
@@ -186,7 +187,6 @@ const Hero = () => {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ 
                   opacity: 1, 
-                  y: [0, -2, 0],
                   boxShadow: [
                     `0 5px 15px ${social.shadowColor.replace('0.4', '0.2')}`,
                     `0 8px 25px ${social.shadowColor.replace('0.4', '0.3')}`,
@@ -198,16 +198,13 @@ const Hero = () => {
                   type: "spring",
                   stiffness: 300,
                   damping: 20,
-                  y: { duration: 3, repeat: Infinity, delay: index * 0.2, ease: "easeInOut" },
                   boxShadow: { duration: 2.5, repeat: Infinity, delay: index * 0.15, ease: "easeInOut" }
                 }}
                 whileHover={{ 
-                  scale: 1.3, 
-                  y: -8,
-                  boxShadow: `0 15px 35px ${social.shadowColor}`
+                  scale: 1.1
                 }}
                 whileTap={{ scale: 0.9 }}
-                className="p-3 bg-white dark:bg-gray-800 backdrop-blur-sm rounded-full border border-gray-200 dark:border-gray-700 transition-all duration-500 shadow-lg hover:shadow-2xl"
+                className="p-3 bg-white dark:bg-gray-800 backdrop-blur-sm rounded-full border border-gray-200 dark:border-gray-700 transition-all duration-300 shadow-lg hover:shadow-2xl relative group"
                 style={{
                   color: social.color,
                   boxShadow: `0 5px 15px ${social.shadowColor.replace('0.4', '0.2')}`
@@ -225,6 +222,10 @@ const Hero = () => {
                 title={social.label}
               >
                 <social.icon size={20} />
+                {/* Tooltip */}
+                <div className="absolute -top-10 left-1/2 transform -translate-x-1/2 bg-gray-900 dark:bg-gray-700 text-white text-xs px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity duration-200 pointer-events-none whitespace-nowrap z-10">
+                  {social.label}
+                </div>
               </motion.a>
             ))}
           </motion.div>

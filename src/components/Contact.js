@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { FiMail, FiPhone, FiMapPin, FiSend, FiGithub, FiLinkedin, FiCheck, FiX } from 'react-icons/fi';
+import { FiMail, FiPhone, FiMapPin, FiSend, FiGithub, FiLinkedin, FiCheck, FiX, FiExternalLink } from 'react-icons/fi';
 import { SiGeeksforgeeks, SiLeetcode } from 'react-icons/si';
 import emailjs from '@emailjs/browser';
 
@@ -102,6 +102,13 @@ const Contact = () => {
       href: 'https://leetcode.com/u/ANURAG-SHIKHAR_4956/',
       color: '#FFA116',
       shadowColor: 'rgba(255, 161, 22, 0.4)'
+    },
+    {
+      icon: FiExternalLink,
+      label: 'Codolio',
+      href: 'https://codolio.com/profile/Anurag_49_56',
+      color: '#6366F1',
+      shadowColor: 'rgba(99, 102, 241, 0.4)'
     }
   ];
 
