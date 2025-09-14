@@ -99,14 +99,14 @@ const Contact = () => {
     {
       icon: SiLeetcode,
       label: 'LeetCode',
-      href: 'https://leetcode.com/u/ANURAG-SHIKHAR_4956/',
+      href: 'https://leetcode.com/u/ANURAG-SHIKHAR_20_22/',
       color: '#FFA116',
       shadowColor: 'rgba(255, 161, 22, 0.4)'
     },
     {
       icon: FiExternalLink,
       label: 'Codolio',
-      href: 'https://codolio.com/profile/Anurag_49_56',
+      href: 'https://codolio.com/profile/Anurag_49_56_20@24',
       color: '#6366F1',
       shadowColor: 'rgba(99, 102, 241, 0.4)'
     }
