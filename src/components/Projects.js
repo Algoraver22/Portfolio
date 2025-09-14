@@ -9,8 +9,8 @@ const Projects = () => {
       description: 'A comprehensive employee management system featuring role-based authentication for HR administrators and staff members. The platform streamlines HR operations with secure employee record management, automated leave request processing, and internal communication through notices. Built with modern web technologies to ensure scalability and security.',
       technologies: ['Node.js', 'Express.js', 'MongoDB', 'Tailwind CSS', 'JavaScript'],
       github: 'https://github.com/Algoraver22/employee-hr-platform',
-      demo: 'https://employee-hr-platform-nhq7.vercel.app/',
-      image: '/assets/images/Employee-hr-platform.png',
+      demo: 'https://jocular-cat-42520b.netlify.app/',
+      image: '/assets/images/Employee.png',
       timeline: 'Jan 2025 – Mar 2025',
       category: 'Full Stack'
     },
