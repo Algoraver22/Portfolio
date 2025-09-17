@@ -5,13 +5,13 @@ import { FiGithub, FiExternalLink, FiCalendar } from 'react-icons/fi';
 const Projects = () => {
   const projects = [
     {
-      title: 'Employee HR Platform',
-      description: 'A comprehensive employee management system featuring role-based authentication for HR administrators and staff members. The platform streamlines HR operations with secure employee record management, automated leave request processing, and internal communication through notices. Built with modern web technologies to ensure scalability and security.',
-      technologies: ['Node.js', 'Express.js', 'MongoDB', 'Tailwind CSS', 'JavaScript'],
-      github: 'https://github.com/Algoraver22/employee-hr-platform',
-      demo: 'https://jocular-cat-42520b.netlify.app/',
-      image: '/assets/images/Employee.png',
-      timeline: 'Jan 2025 – Mar 2025',
+      title: 'HeadlineHub',
+      description: 'A dynamic news aggregation platform providing real-time headlines with category-based browsing and keyword search. The application enhances user engagement with secure login options through Google and GitHub accounts, ensuring personalized access to curated content. Built with modern web technologies to deliver a responsive interface, seamless navigation, and scalable performance.',
+      technologies: ['Next.js', 'TypeScript', 'Tailwind CSS', 'NextAuth.js', 'MongoDB', 'REST API '],
+      github: 'https://github.com/Algoraver22/HeadlineHub',
+      demo: 'https://headline-hub-two.vercel.app/',
+      image: '/assets/images/HeadlineHub.png',
+      timeline: 'July 2025 – Sept 2025',
       category: 'Full Stack'
     },
     {
