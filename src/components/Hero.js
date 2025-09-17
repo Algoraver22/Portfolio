@@ -35,9 +35,7 @@ const Hero = () => {
   const socialLinks = [
     { icon: FiGithub, href: 'https://github.com/Algoraver22', label: 'GitHub', color: '#333', shadowColor: 'rgba(51, 51, 51, 0.4)' },
     { icon: FiLinkedin, href: 'https://www.linkedin.com/in/anurag-chaturvedi-b62a7024b/', label: 'LinkedIn', color: '#0077B5', shadowColor: 'rgba(0, 119, 181, 0.4)' },
-    { icon: SiGeeksforgeeks, href: 'https://www.geeksforgeeks.org/user/anurag5649/', label: 'GeeksforGeeks', color: '#0F9D58', shadowColor: 'rgba(15, 157, 88, 0.4)' },
-    { icon: SiLeetcode, href: 'https://leetcode.com/u/ANURAG-SHIKHAR_20_22/', label: 'LeetCode', color: '#FFA116', shadowColor: 'rgba(255, 161, 22, 0.4)' },
-    { icon: FiCode, href: 'https://codolio.com/profile/Anurag_49_56_20@24', label: 'Codolio', color: '#6366F1', shadowColor: 'rgba(99, 102, 241, 0.4)' },
+  
     { icon: FiMail, href: 'mailto:ak9656255@gmail.com', label: 'Email', color: '#EA4335', shadowColor: 'rgba(234, 67, 53, 0.4)' },
   ];
 
