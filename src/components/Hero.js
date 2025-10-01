@@ -26,7 +26,7 @@ const Hero = () => {
   }, []);
 
   const stats = [
-    { label: 'Projects', value: '4+' },
+    { label: 'Projects', value: '6+' },
     { label: 'Internships', value: '1' },
     { label: 'Technologies', value: '12+' },
     { label: 'DSA Problems', value: '300+' },
