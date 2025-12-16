@@ -86,15 +86,15 @@ const About = () => {
                 </li>
                 <li className="flex items-center">
                   <span className="w-2 h-2 bg-primary-600 rounded-full mr-3"></span>
-                  Learning DevOps and Cloud Computing technologies
+                  Performing data analysis and querying using Python and SQL
                 </li>
                 <li className="flex items-center">
                   <span className="w-2 h-2 bg-primary-600 rounded-full mr-3"></span>
-                  Solving algorithmic challenges on competitive platforms
+                  Building and evaluating machine learning models on structured data
                 </li>
                 <li className="flex items-center">
                   <span className="w-2 h-2 bg-primary-600 rounded-full mr-3"></span>
-                  Exploring containerization and cloud deployment
+                  Solving algorithmic problems and logical challenges
                 </li>
               </ul>
             </motion.div>
