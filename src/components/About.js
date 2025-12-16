@@ -56,16 +56,17 @@ const About = () => {
             
             <div className="space-y-4 text-gray-600 dark:text-gray-400">
               <p>
-                  I’m a Computer Science student at KIET Group of Institutions, currently working towards a career as a Data Analyst and AI/ML Engineer. I enjoy working with data, finding patterns, and turning information into useful insights. My interest in technology started out of curiosity and gradually grew as I explored different areas of development.
+                 I’m a Computer Science student at KIET Group of Institutions, aiming to build a career as a Data Analyst and AI/ML Engineer. I enjoy working with data, identifying patterns, and converting information into meaningful insights.
               </p>
 
               <p>
-                  I also have hands-on experience as a MERN stack developer and have built several projects focused on solving real-world problems. While working on these projects, I learned the importance of clean code, logical thinking, and building interfaces that are easy for users to understand.
+                  I also have hands-on experience as a MERN stack developer, having built multiple projects that address real-world problems. These projects helped me strengthen my coding practices, logical thinking, and user-focused design skills.
+              </p>
+              
+              <p>
+                  Beyond academics and coding, I have represented my college in basketball and cricket tournaments. Sports have played a key role in developing my teamwork, discipline, and competitive mindset.
               </p>
 
-              <p>
-                  Apart from academics and coding, I actively participate in sports and have represented my college in both basketball and cricket tournaments, winning matches at the college level. Sports have helped me develop teamwork, discipline, and a competitive mindset, which I carry into my learning and problem-solving approach.
-              </p>
 
             </div>
 
