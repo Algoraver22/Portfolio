@@ -56,21 +56,17 @@ const About = () => {
             
             <div className="space-y-4 text-gray-600 dark:text-gray-400">
               <p>
-                I'm a Computer Science student at KIET Group of Institutions with a passion for 
-                creating innovative web solutions. My journey in technology started with curiosity 
-                and has evolved into expertise in full-stack development.
+                  I’m a Computer Science student at KIET Group of Institutions, currently working towards a career as a Data Analyst and AI/ML Engineer. I enjoy working with data, finding patterns, and turning information into useful insights. My interest in technology started out of curiosity and gradually grew as I explored different areas of development.
               </p>
-              
+
               <p>
-                As a MERN stack developer, I've built several projects that solve real-world problems. 
-                I believe in writing clean, efficient code and creating user-friendly interfaces.
+                  I also have hands-on experience as a MERN stack developer and have built several projects focused on solving real-world problems. While working on these projects, I learned the importance of clean code, logical thinking, and building interfaces that are easy for users to understand.
               </p>
-              
+
               <p>
-                Beyond coding, I'm an active sports enthusiast who represented my college in 
-                basketball and achieved significant victories in tournaments. This competitive 
-                spirit drives my approach to problem-solving and continuous learning.
+                  Apart from academics and coding, I actively participate in sports and have represented my college in both basketball and cricket tournaments, winning matches at the college level. Sports have helped me develop teamwork, discipline, and a competitive mindset, which I carry into my learning and problem-solving approach.
               </p>
+
             </div>
 
             <motion.div
