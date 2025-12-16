@@ -100,8 +100,7 @@ src/
 - **Phone**: +91 6387782118
 - **LinkedIn**: [Anurag Chaturvedi](https://www.linkedin.com/in/anurag-chaturvedi-b62a7024b/)
 - **GitHub**: [Algoraver22](https://github.com/Algoraver22)
-- **LeetCode**: [ANURAG-SHIKHAR_4956](https://leetcode.com/u/ANURAG-SHIKHAR_4956/)
-- **GeeksforGeeks**: [anurag5649](https://www.geeksforgeeks.org/user/anurag5649/)
+
 
 ## 📄 License
 
