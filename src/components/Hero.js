@@ -92,8 +92,7 @@ const Hero = () => {
             transition={{ delay: 0.6 }}
             className="text-lg text-gray-600 dark:text-gray-400 mb-8 max-w-2xl"
           >
-            Passionate Computer Science student with expertise in MERN stack development and problem-solving. 
-            Experienced MERN stack developer transitioning into DevOps and Cloud Computing, with a strong foundation in building scalable web applications.
+          Passionate Computer Science student with experience in MERN stack development and scalable web applications, actively transitioning toward data analytics and AI/ML with a strong analytical mindset.
           </motion.p>
 
           {/* CTA Buttons */}
