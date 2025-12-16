@@ -51,8 +51,7 @@ const Navbar = () => {
             className="flex items-center space-x-2"
           >
             <motion.div
-              animate={{ rotate: 360 }}
-              transition={{ duration: 8, repeat: Infinity, ease: "linear" }}
+              
               className="w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-500 rounded-lg flex items-center justify-center"
             >
               <span className="text-white font-bold text-sm">AC</span>
