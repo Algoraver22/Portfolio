@@ -113,7 +113,7 @@ const About = () => {
               <motion.div
                 key={index}
                 initial={{ opacity: 0, y: 20 }}
-                animate={{
+              /*  animate={{
                   opacity: 1,
                   y: [0, -3, 0],
                   boxShadow: [
@@ -121,7 +121,7 @@ const About = () => {
                     "0 12px 35px rgba(139, 92, 246, 0.25)",
                     "0 8px 25px rgba(59, 130, 246, 0.15)"
                   ]
-                }}
+                }} */
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{
@@ -129,8 +129,8 @@ const About = () => {
                   type: "spring",
                   stiffness: 300,
                   damping: 20,
-                  y: { duration: 4, repeat: Infinity, delay: index * 0.5, ease: "easeInOut" },
-                  boxShadow: { duration: 3, repeat: Infinity, delay: index * 0.3, ease: "easeInOut" }
+                 // y: { duration: 4, repeat: Infinity, delay: index * 0.5, ease: "easeInOut" },
+                 // boxShadow: { duration: 3, repeat: Infinity, delay: index * 0.3, ease: "easeInOut" }
                 }}
                 whileHover={{ 
                   scale: 1.08, 
