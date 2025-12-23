@@ -141,8 +141,7 @@ const Hero = () => {
             </motion.a>
             
             <motion.a
-              href="/resume/Anurag's_Resume-.pdf"
-
+              href="/resume/AnuragResume.pdf"
               download
               whileHover={{ 
                 scale: 1.08, 
