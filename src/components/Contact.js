@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { FiMail, FiPhone, FiMapPin, FiSend, FiGithub, FiLinkedin, FiCheck, FiX, FiExternalLink } from 'react-icons/fi';
+import { FiMail, FiPhone, FiMapPin, FiSend, FiGithub, FiLinkedin,FiInstagram, FiCheck, FiX, FiExternalLink } from 'react-icons/fi';
 import { SiGeeksforgeeks, SiLeetcode } from 'react-icons/si';
 import emailjs from '@emailjs/browser';
 
