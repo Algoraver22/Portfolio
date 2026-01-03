@@ -83,7 +83,13 @@ const Contact = () => {
       color: '#0077B5',
       shadowColor: 'rgba(0, 119, 181, 0.4)'
     },
-    
+    {
+      icon: FiGithub,
+      label: 'GitHub',
+      href: 'https://github.com/Algoraver22',
+      color: '#333',
+      shadowColor: 'rgba(51,51,51,0.4)',
+    },
     {
       icon: FiInstagram,
       label: 'Instagram',
