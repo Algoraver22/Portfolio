@@ -237,37 +237,37 @@ const Contact = () => {
               </div>
             </motion.div>
 
-            {/* Quick Stats */}
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ delay: 0.6 }}
-              className="mt-8 p-6 bg-gradient-to-r from-primary-50 to-blue-50 dark:from-primary-900/20 dark:to-blue-900/20 rounded-xl"
-            >
-              <h4 className="text-lg font-semibold text-gray-900 dark:text-white mb-4">
-                Quick Facts
-              </h4>
-              <div className="grid grid-cols-2 gap-4 text-sm">
-                <div className="text-center">
-                  <div className="text-2xl font-bold text-primary-600 dark:text-primary-400">300+</div>
-                  <div className="text-gray-600 dark:text-gray-400">Problems Solved</div>
-                </div>
-                <div className="text-center">
-                  <div className="text-2xl font-bold text-primary-600 dark:text-primary-400">4+</div>
-                  <div className="text-gray-600 dark:text-gray-400">Projects Built</div>
-                </div>
-                <div className="text-center">
-                  <div className="text-2xl font-bold text-primary-600 dark:text-primary-400">8.4</div>
-                  <div className="text-gray-600 dark:text-gray-400">CGPA</div>
-                </div>
-                <div className="text-center">
-                  <div className="text-2xl font-bold text-primary-600 dark:text-primary-400">12+</div>
-                  <div className="text-gray-600 dark:text-gray-400">Technologies</div>
-                </div>
-              </div>
-            </motion.div>
-          </motion.div>
+          //   {/* Quick Stats */}
+          //   <motion.div
+          //     initial={{ opacity: 0, y: 20 }}
+          //     whileInView={{ opacity: 1, y: 0 }}
+          //     viewport={{ once: true }}
+          //     transition={{ delay: 0.6 }}
+          //     className="mt-8 p-6 bg-gradient-to-r from-primary-50 to-blue-50 dark:from-primary-900/20 dark:to-blue-900/20 rounded-xl"
+          //   >
+          //     <h4 className="text-lg font-semibold text-gray-900 dark:text-white mb-4">
+          //       Quick Facts
+          //     </h4>
+          //     <div className="grid grid-cols-2 gap-4 text-sm">
+          //       <div className="text-center">
+          //         <div className="text-2xl font-bold text-primary-600 dark:text-primary-400">300+</div>
+          //         <div className="text-gray-600 dark:text-gray-400">Problems Solved</div>
+          //       </div>
+          //       <div className="text-center">
+          //         <div className="text-2xl font-bold text-primary-600 dark:text-primary-400">4+</div>
+          //         <div className="text-gray-600 dark:text-gray-400">Projects Built</div>
+          //       </div>
+          //       <div className="text-center">
+          //         <div className="text-2xl font-bold text-primary-600 dark:text-primary-400">8.4</div>
+          //         <div className="text-gray-600 dark:text-gray-400">CGPA</div>
+          //       </div>
+          //       <div className="text-center">
+          //         <div className="text-2xl font-bold text-primary-600 dark:text-primary-400">12+</div>
+          //         <div className="text-gray-600 dark:text-gray-400">Technologies</div>
+          //       </div>
+          //     </div>
+          //   </motion.div>
+          // </motion.div>
 
           {/* Contact Form */}
           <motion.div
