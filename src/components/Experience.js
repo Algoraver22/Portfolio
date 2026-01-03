@@ -19,25 +19,27 @@ const Experience = () => {
   ];
 
   const education = [
-    {
-      degree: 'Bachelor of Technology in Computer Science and Information Technology',
-      institution: 'KIET Group Of Institutions, Ghaziabad',
-      duration: 'Sept 2022 – Jun 2026',
-      cgpa: '8.4/10',
-      details: 'Affiliated to AKTU'
+     {
+      degree: 'High School',
+      institution: 'Dr. VSPS Cantt, Kanpur',
+      duration: 'Apr 2018 – Apr 2019',
+      cgpa: '94%'
     },
-    {
+     {
       degree: 'Senior Secondary',
       institution: 'BSS Education Centre, Kanpur',
       duration: 'Apr 2020 – Apr 2021',
       cgpa: '94%'
     },
     {
-      degree: 'High School',
-      institution: 'Dr. VSPS Cantt, Kanpur',
-      duration: 'Apr 2018 – Apr 2019',
-      cgpa: '94%'
+      degree: 'Bachelor of Technology in Computer Science and Information Technology',
+      institution: 'KIET Group Of Institutions, Ghaziabad',
+      duration: 'Sept 2022 – Jun 2026',
+      cgpa: '8.4/10',
+      details: 'Affiliated to AKTU'
     }
+   
+   
   ];
 
   const certifications = [
