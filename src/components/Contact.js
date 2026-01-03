@@ -75,6 +75,14 @@ const Contact = () => {
   ];
 
   const socialLinks = [
+    
+    {
+      icon: FiLinkedin,
+      label: 'LinkedIn',
+      href: 'https://www.linkedin.com/in/anurag-chaturvedi-b62a7024b/',
+      color: '#0077B5',
+      shadowColor: 'rgba(0, 119, 181, 0.4)'
+    },
     {
       icon: FiGithub,
       label: 'GitHub',
@@ -83,11 +91,11 @@ const Contact = () => {
       shadowColor: 'rgba(51, 51, 51, 0.4)'
     },
     {
-      icon: FiLinkedin,
-      label: 'LinkedIn',
-      href: 'https://www.linkedin.com/in/anurag-chaturvedi-b62a7024b/',
-      color: '#0077B5',
-      shadowColor: 'rgba(0, 119, 181, 0.4)'
+    icon: FiInstagram,
+    label: 'Instagram',
+    href: 'https://www.instagram.com/anurag_shikhar_49/',
+    color: '#E4405F',
+    shadowColor: 'rgba(228, 64, 95, 0.45)'
     },
     {
       icon: SiGeeksforgeeks,
