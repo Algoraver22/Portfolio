@@ -6,6 +6,7 @@ import {
   SiFirebase, SiExpress, SiRedux, SiHtml5, SiCss3,
   SiVisualstudiocode, SiPostman, SiNetlify, SiVercel, SiBootstrap, SiPowerbi, SiGithub, SiExcel
 } from 'react-icons/si';
+import { FaPython } from 'react-icons/fa';
 
 const Skills = () => {
   const skillCategories = [
@@ -38,15 +39,49 @@ const Skills = () => {
       ]
     },
     */
+     {
+      title: 'Web Technologies',
+      skills: [
+        // Frontend
+        { name: 'HTML5', icon: SiHtml5, color: '#E34F26' },
+        { name: 'CSS3', icon: SiCss3, color: '#1572B6' },
+        { name: 'React.js', icon: SiReact, color: '#61DAFB' },
+        { name: 'Next.js', icon: SiReact, color: '#000000' }, // placeholder
+        { name: 'Redux Toolkit', icon: SiRedux, color: '#764ABC' },
+        { name: 'TailwindCSS', icon: SiTailwindcss, color: '#06B6D4' },
+        { name: 'Bootstrap', icon: SiBootstrap, color: '#7952B3' },
+        // Backend
+        { name: 'Node.js', icon: SiNodedotjs, color: '#339933' },
+        { name: 'Express.js', icon: SiExpress, color: '#000000' },
+        { name: 'WebRTC', icon: SiReact, color: '#F7F7F7' }, // placeholder
+        { name: 'REST APIs', icon: SiPostman, color: '#FF6C37' },
+      ]
+    },
+    {
+      title: 'Data Analysis Tools',
+      skills: [
+        { name: 'Excel', icon: SiExcel, color: '#217346' },
+        { name: 'Power BI', icon: SiPowerbi, color: '#F2C811' },
+        { name: 'Pandas', icon: FaPython, color: '#150458' },
+        { name: 'NumPy', icon: FaPython, color: '#013243' },
+        { name: 'Matplotlib', icon: FaPython, color: '#11557C' },
+        { name: 'Seaborn', icon: FaPython, color: '#4C72B0' },
+      ]
+    },
     {
       title: 'Databases & Tools',
       skills: [
-        { name: 'MongoDB', icon: SiMongodb, color: '#47A248' },
         { name: 'MySQL', icon: SiMysql, color: '#4479A1' },
+        { name: 'MongoDB', icon: SiMongodb, color: '#47A248' },
         { name: 'Firebase', icon: SiFirebase, color: '#FFCA28' },
         { name: 'Git', icon: SiGit, color: '#F05032' },
+        { name: 'GitHub', icon: SiGithub, color: '#181717' },
+        { name: 'VS Code', icon: SiVisualstudiocode, color: '#007ACC' },
+        { name: 'Postman', icon: SiPostman, color: '#FF6C37' },
+        { name: 'Netlify', icon: SiNetlify, color: '#00C7B7' },
+        { name: 'Vercel', icon: SiVercel, color: '#000000' },
       ]
-    }
+    },
   ];
 
   return (
