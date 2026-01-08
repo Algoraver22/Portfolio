@@ -308,14 +308,14 @@ const Skills = () => {
                          dark:from-gray-800 dark:to-gray-700
                          backdrop-blur-sm p-6 rounded-2xl
                          border border-orange-200 dark:border-orange-800
-                         transition-all duration-500"
+                         transition-all duration-500 flex flex-col"
             >
-              <h3 className="text-lg font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent mb-6 text-center">
+              <h3 className="text-lg font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent mb-4 text-center">
                 {category.title}
               </h3>
 
               {/* 🔹 Scrollable container for skills */}
-              <div className="space-y-4 max-h-80 overflow-y-auto p-1">
+              <div className="flex-1 overflow-y-auto space-y-4 p-1">
                 {category.skills.map((skill, skillIndex) => (
                   <motion.div
                     key={skill.name}
@@ -344,10 +344,10 @@ const Skills = () => {
             </motion.div>
           ))}
         </div>
-
       </div>
     </section>
   );
 };
 
 export default Skills;
+
