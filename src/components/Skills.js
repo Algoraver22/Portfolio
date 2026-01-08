@@ -3,7 +3,8 @@ import { motion } from 'framer-motion';
 import { 
   SiReact, SiNodedotjs, SiMongodb, SiJavascript, SiTypescript, 
   SiTailwindcss, SiGit, SiPython, SiCplusplus, SiMysql,
-  SiFirebase, SiExpress, SiRedux, SiHtml5, SiCss3
+  SiFirebase, SiExpress, SiRedux, SiHtml5, SiCss3,
+  SiVisualstudiocode, SiPostman, SiNetlify, SiVercel, SiBootstrap, SiPowerbi, SiGithub, SiExcel
 } from 'react-icons/si';
 
 const Skills = () => {
@@ -15,6 +16,7 @@ const Skills = () => {
         { name: 'TypeScript', icon: SiTypescript, color: '#3178C6' },
         { name: 'Python', icon: SiPython, color: '#3776AB' },
         { name: 'C', icon: SiCplusplus, color: '#A8B9CC' },
+         { name: 'SQL', icon: SiMysql, color: '#4479A1' },
         { name: 'C++', icon: SiCplusplus, color: '#00599C' },
       ]
     },
