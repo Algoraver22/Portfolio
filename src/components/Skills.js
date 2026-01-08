@@ -29,14 +29,14 @@ const Skills = () => {
         { name: 'HTML5', icon: SiHtml5, color: '#E34F26' },
         { name: 'CSS3', icon: SiCss3, color: '#1572B6' },
         { name: 'React.js', icon: SiReact, color: '#61DAFB' },
-        { name: 'Next.js', icon: SiReact, color: '#000000' },
+        { name: 'Next.js', icon: SiReact, color: '#61DAFB' },
         { name: 'Redux Toolkit', icon: SiRedux, color: '#764ABC' },
         { name: 'TailwindCSS', icon: SiTailwindcss, color: '#06B6D4' },
         { name: 'Bootstrap', icon: SiBootstrap, color: '#7952B3' },
        
         { name: 'Node.js', icon: SiNodedotjs, color: '#339933' },
-        { name: 'Express.js', icon: SiExpress, color: '#000000' },
-        { name: 'WebRTC', icon: SiReact, color: '#F7F7F7' }, 
+        { name: 'Express.js', icon: SiExpress, color: '#339933' },
+        { name: 'WebRTC', icon: SiReact, color: '#FF6C37' }, 
         { name: 'REST APIs', icon: SiPostman, color: '#FF6C37' },
       ]
     },
@@ -89,7 +89,10 @@ const Skills = () => {
         </motion.div>
 
         {/* Skill Cards */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div 
+          
+          className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-8"
+        >
           {skillCategories.map((category, categoryIndex) => (
             <motion.div
               key={category.title}
@@ -116,7 +119,9 @@ const Skills = () => {
                 {category.title}
               </h3>
 
-              <div className="space-y-4">
+            <div 
+                className="space-y-4 max-h-96 overflow-y-auto" 
+              >
                 {category.skills.map((skill, skillIndex) => (
                   <motion.div
                     key={skill.name}
