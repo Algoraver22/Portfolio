@@ -51,8 +51,8 @@ const Contact = () => {
     {
       icon: FiMail,
       label: 'Email',
-      value: 'ak9656255@gmail.com',
-      href: 'mailto:ak9656255@gmail.com',
+      value: 'adityagkumar56@gmail.com', 
+      href: 'mailto:adityagkumar56@gmail.com',
       color: '#EA4335',
       bgColor: 'bg-red-100 dark:bg-red-900'
     },
@@ -90,6 +90,11 @@ const Contact = () => {
       color: '#333',
       shadowColor: 'rgba(51,51,51,0.4)',
     },
+    { icon: FiMail,
+     href: 'mailto:adityagkumar56@gmail.com',
+     label: 'Email', 
+     color: '#EA4335', 
+     shadowColor: 'rgba(234, 67, 53, 0.4)' },
     {
       icon: FiInstagram,
       label: 'Instagram',
