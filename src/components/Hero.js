@@ -33,8 +33,8 @@ const Hero = () => {
 
   const socialLinks = [
     { icon: FiLinkedin, href: 'https://www.linkedin.com/in/anurag-chaturvedi-b62a7024b/', label: 'LinkedIn', color: '#0077B5', shadowColor: 'rgba(0, 119, 181, 0.4)' },
-    { icon: FiGithub, href: 'https://github.com/Algoraver22', label: 'GitHub', color: '#333', shadowColor: 'rgba(51, 51, 51, 0.4)' },
-    { icon: FiInstagram, href: 'https://www.instagram.com/YOUR_USERNAME', label: 'Instagram', color: '#E4405F', shadowColor: 'rgba(228, 64, 95, 0.4)' },
+    { icon: FiGithub, href: 'https://github.com/Algoraver22/', label: 'GitHub', color: '#333', shadowColor: 'rgba(51, 51, 51, 0.4)' },
+    { icon: FiInstagram, href: 'https://www.instagram.com/anurag_shikhar_49/', label: 'Instagram', color: '#E4405F', shadowColor: 'rgba(228, 64, 95, 0.4)' },
     
     { icon: FiMail, href: 'mailto:adityagkumar56@gmail.com', label: 'Email', color: '#EA4335', shadowColor: 'rgba(234, 67, 53, 0.4)' },
   ];
