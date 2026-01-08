@@ -21,39 +21,22 @@ const Skills = () => {
         { name: 'C++', icon: SiCplusplus, color: '#00599C' },
       ]
     },
-   /* {
-      title: 'Frontend Technologies',
-      skills: [
-        { name: 'React.js', icon: SiReact, color: '#61DAFB' },
-        { name: 'Redux Toolkit', icon: SiRedux, color: '#764ABC' },
-        { name: 'TailwindCSS', icon: SiTailwindcss, color: '#06B6D4' },
-        { name: 'HTML5', icon: SiHtml5, color: '#E34F26' },
-        { name: 'CSS3', icon: SiCss3, color: '#1572B6' },
-      ]
-    },
-    {
-      title: 'Backend Technologies',
-      skills: [
-        { name: 'Node.js', icon: SiNodedotjs, color: '#339933' },
-        { name: 'Express.js', icon: SiExpress, color: '#000000' },
-      ]
-    },
-    */
+  
      {
       title: 'Web Technologies',
       skills: [
-        // Frontend
+        
         { name: 'HTML5', icon: SiHtml5, color: '#E34F26' },
         { name: 'CSS3', icon: SiCss3, color: '#1572B6' },
         { name: 'React.js', icon: SiReact, color: '#61DAFB' },
-        { name: 'Next.js', icon: SiReact, color: '#000000' }, // placeholder
+        { name: 'Next.js', icon: SiReact, color: '#000000' },
         { name: 'Redux Toolkit', icon: SiRedux, color: '#764ABC' },
         { name: 'TailwindCSS', icon: SiTailwindcss, color: '#06B6D4' },
         { name: 'Bootstrap', icon: SiBootstrap, color: '#7952B3' },
-        // Backend
+       
         { name: 'Node.js', icon: SiNodedotjs, color: '#339933' },
         { name: 'Express.js', icon: SiExpress, color: '#000000' },
-        { name: 'WebRTC', icon: SiReact, color: '#F7F7F7' }, // placeholder
+        { name: 'WebRTC', icon: SiReact, color: '#F7F7F7' }, 
         { name: 'REST APIs', icon: SiPostman, color: '#FF6C37' },
       ]
     },
