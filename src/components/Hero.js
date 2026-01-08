@@ -26,8 +26,8 @@ const Hero = () => {
 
   const stats = [
     { label: 'Projects', value: '6+' },
-    { label: 'Internships', value: '2' },
-    { label: 'Technologies', value: '12+' },
+    { label: 'Internships', value: '2+' },
+    { label: 'Technologies', value: '32+' },
     { label: 'DSA Problems', value: '300+' },
   ];
 
