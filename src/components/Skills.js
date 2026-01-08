@@ -20,7 +20,7 @@ const Skills = () => {
         { name: 'C++', icon: SiCplusplus, color: '#00599C' },
       ]
     },
-    {
+   /* {
       title: 'Frontend Technologies',
       skills: [
         { name: 'React.js', icon: SiReact, color: '#61DAFB' },
@@ -37,6 +37,7 @@ const Skills = () => {
         { name: 'Express.js', icon: SiExpress, color: '#000000' },
       ]
     },
+    */
     {
       title: 'Databases & Tools',
       skills: [
