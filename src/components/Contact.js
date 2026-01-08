@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { FiMail, FiPhone, FiMapPin, FiSend, FiGithub, FiLinkedin,FiInstagram, FiCheck, FiX, FiExternalLink } from 'react-icons/fi';
-import { SiGeeksforgeeks, SiLeetcode } from 'react-icons/si';
+import { FiMail, FiPhone, FiMapPin, FiSend, FiGithub, FiLinkedin,FiInstagram, FiCheck, FiX } from 'react-icons/fi';
+
 import emailjs from '@emailjs/browser';
 
 const Contact = () => {
@@ -101,28 +101,8 @@ const Contact = () => {
       href: 'https://www.instagram.com/anurag_shikhar_49/',
       color: '#E4405F',
       shadowColor: 'rgba(228,64,95,0.45)',
-    },
-    {
-      icon: SiGeeksforgeeks,
-      label: 'GeeksforGeeks',
-      href: 'https://www.geeksforgeeks.org/user/anurag5649/',
-      color: '#0F9D58',
-      shadowColor: 'rgba(15, 157, 88, 0.4)'
-    },
-    {
-      icon: SiLeetcode,
-      label: 'LeetCode',
-      href: 'https://leetcode.com/u/ANURAG-SHIKHAR_20_22/',
-      color: '#FFA116',
-      shadowColor: 'rgba(255, 161, 22, 0.4)'
-    },
-    {
-      icon: FiExternalLink,
-      label: 'Codolio',
-      href: 'https://codolio.com/profile/Anurag_49_56_20@24',
-      color: '#6366F1',
-      shadowColor: 'rgba(99, 102, 241, 0.4)'
     }
+   
   ];
 
   return (
