@@ -27,7 +27,7 @@ const Hero = () => {
 
   const stats = [
     { label: 'Projects', value: '6+' },
-    { label: 'Internships', value: '1' },
+    { label: 'Internships', value: '2' },
     { label: 'Technologies', value: '12+' },
     { label: 'DSA Problems', value: '300+' },
   ];
@@ -39,7 +39,7 @@ const Hero = () => {
     { icon: SiGeeksforgeeks, href: 'https://www.geeksforgeeks.org/user/anurag5649/', label: 'GeeksforGeeks', color: '#0F9D58', shadowColor: 'rgba(15, 157, 88, 0.4)' },
     { icon: SiLeetcode, href: 'https://leetcode.com/u/ANURAG-SHIKHAR_20_22/', label: 'LeetCode', color: '#FFA116', shadowColor: 'rgba(255, 161, 22, 0.4)' },
     { icon: FiCode, href: 'https://codolio.com/profile/Anurag_49_56_20@24', label: 'Codolio', color: '#6366F1', shadowColor: 'rgba(99, 102, 241, 0.4)' },
-    { icon: FiMail, href: 'mailto:ak9656255@gmail.com', label: 'Email', color: '#EA4335', shadowColor: 'rgba(234, 67, 53, 0.4)' },
+    { icon: FiMail, href: 'mailto:adityagkumar56@gmail.com', label: 'Email', color: '#EA4335', shadowColor: 'rgba(234, 67, 53, 0.4)' },
   ];
 
   return (
