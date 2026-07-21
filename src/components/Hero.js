@@ -28,7 +28,7 @@ const Hero = () => {
     { label: 'Projects', value: '6+' },
     { label: 'Internships', value: '2+' },
     { label: 'Technologies', value: '32+' },
-    { label: 'DSA Problems', value: '300+' },
+    { label: 'DSA Problems', value: '400+' },
   ];
 
   const socialLinks = [
