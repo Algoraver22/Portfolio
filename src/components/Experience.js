@@ -8,7 +8,7 @@ const Experience = () => {
       type: 'work',
       title: 'Web Developer',
       company: 'Certify Technology',
-      duration: 'Jun 2025 – Jul 2025',
+      duration: 'May 2025 – Aug 2025',
       description: [
         'Built a real-time issue reporting dashboard with instant feedback and smooth form validation',
         'Implemented backend system to securely capture and store feedback with timestamps and user details',
