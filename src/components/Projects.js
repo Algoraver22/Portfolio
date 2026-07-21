@@ -19,7 +19,7 @@ const Projects = () => {
       description: 'A feature-rich video conferencing platform that enables seamless 1:1 and group video calls with real-time interaction capabilities. The application includes advanced features like screen sharing, user presence detection, session management, and post-meeting notes functionality. Integrated with Firebase for authentication and real-time data synchronization.',
       technologies: ['React.js', 'Tailwind CSS', 'Redux Toolkit', 'WebRTC', 'Firebase'],
       github: 'https://github.com/Algoraver22/meetup-lite',
-      demo: 'https://68aca2795c26a23d0a5ec76d--meetuplite.netlify.app/login',
+      demo: 'heymeetup.netlify.app/',
       image: '/assets/images/meetup-lite.png',
       timeline: 'Apr 2025 – Jun 2025',
       category: 'Web App'
