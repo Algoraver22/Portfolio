@@ -21,7 +21,7 @@ const About = () => {
     },
     {
       icon: FiTrendingUp,
-      title: 'CGPA 8.4/10',
+      title: 'CGPA 8.33/10',
       description: 'Strong academic performance in Computer Science'
     }
   ];
