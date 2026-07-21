@@ -6,7 +6,7 @@ const About = () => {
   const highlights = [
     {
       icon: FiCode,
-      title: '300+ Problems Solved',
+      title: '400+ Problems Solved',
       description: 'Active problem solver on LeetCode and GeeksforGeeks'
     },
     {
