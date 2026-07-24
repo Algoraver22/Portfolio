@@ -49,7 +49,7 @@ const Experience = () => {
       degree: 'Bachelor of Technology in Computer Science and Information Technology',
       institution: 'KIET Group Of Institutions, Ghaziabad',
       duration: 'Sept 2022 – Jun 2026',
-      cgpa: '8.4/10',
+      cgpa: '8.33/10',
       details: 'Affiliated to AKTU'
     }
    
