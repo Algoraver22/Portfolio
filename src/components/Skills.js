@@ -28,19 +28,15 @@ import {
   SiNetlify,
   SiVercel
 } from "react-icons/si";
-
 import {
   FaPython,
   FaDatabase,
   FaMicrosoft,
   FaCode
 } from "react-icons/fa";
-
 const Skills = () => {
-
   const skillCategories = [
-
-    {
+ {
   title: "Programming Languages",
   skills: [
     { name: "C", icon: SiCplusplus, color: "#5C6BC0" },
