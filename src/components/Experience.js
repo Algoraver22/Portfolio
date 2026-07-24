@@ -252,36 +252,8 @@ const Experience = () => {
               ))}
             </div>
 
-            {/* Accomplishments */}
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ delay: 0.4 }}
-              className="mt-8 bg-gradient-to-r from-primary-50 to-blue-50 dark:from-primary-900/20 dark:to-blue-900/20 p-6 rounded-xl"
-            >
-              <h4 className="text-lg font-semibold text-gray-900 dark:text-white mb-4">
-                Key Accomplishments
-              </h4>
-              <ul className="space-y-2">
-                <li className="flex items-start text-gray-600 dark:text-gray-400">
-                  <span className="w-2 h-2 bg-primary-600 rounded-full mr-3 mt-2"></span>
-                  Solved 300+ Data Structures and Algorithms problems on LeetCode & GFG
-                </li>
-                <li className="flex items-start text-gray-600 dark:text-gray-400">
-                  <span className="w-2 h-2 bg-primary-600 rounded-full mr-3 mt-2"></span>
-                  1st position in North-Zone Basketball Tournament (2019)
-                </li>
-                <li className="flex items-start text-gray-600 dark:text-gray-400">
-                  <span className="w-2 h-2 bg-primary-600 rounded-full mr-3 mt-2"></span>
-                  Runner-up in South-Zone Basketball Tournament (2019)
-                </li>
-                <li className="flex items-start text-gray-600 dark:text-gray-400">
-                  <span className="w-2 h-2 bg-primary-600 rounded-full mr-3 mt-2"></span>
-                  College basketball team representative
-                </li>
-              </ul>
-            </motion.div>
+           
+            
           </motion.div>
         </div>
       </div>
