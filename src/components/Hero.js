@@ -228,22 +228,22 @@ const Hero = () => {
           initial={{ opacity: 0, x: 50 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8, delay: 0.4, ease: "easeOut" }}
-           className="flex flex-col items-center justify-start -mt-32"        >
-        >
+           className="flex flex-col items-center justify-start -mt-56"       >
           {/* Profile Photo */}
           <motion.div
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ delay: 0.6, duration: 0.8, ease: "easeOut" }}
             whileHover={{ scale: 1.02, y: -5 }}
-            className="relative mt-4 ml-24"
+            className="relative mt-4 ml-48"
           >
             <div className="w-80 h-80 rounded-full overflow-hidden shadow-2xl border-8 border-gradient-to-r from-blue-500 via-purple-500 to-pink-500 p-1 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500">
               <div className="w-full h-full rounded-full overflow-hidden bg-white dark:bg-gray-800">
                 <img
                   src="/assets/images/Profile.jpeg"
                   alt="Anurag Chaturvedi"
-                  className="w-full h-full object-cover object-top scale-105"
+                  className="w-full h-full object-cover object-[center_5%] scale-110"
+
                 />
               </div>
             </div>
@@ -288,4 +288,3 @@ const Hero = () => {
 };
 
 export default Hero;
-
