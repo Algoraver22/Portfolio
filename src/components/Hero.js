@@ -197,7 +197,7 @@ const Hero = () => {
                   e.currentTarget.style.color = social.color;
                   e.currentTarget.style.borderColor = '';
                 }}
-                title={social.label}
+                
               >
                 <social.icon size={20} />
                 {/* Tooltip */}
