@@ -84,7 +84,7 @@ const About = () => {
                 }}
                 whileHover={{
                  
-                  y: -8,
+                  
                   boxShadow:
                     "0 10px 20px rgba(59, 130, 246, 0.4), 0 0 0 1px rgba(59, 130, 246, 0.2)",
                 }}
