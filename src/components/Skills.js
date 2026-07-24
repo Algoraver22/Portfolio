@@ -1,9 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
 import {
-  
-  
-  
   FaChartBar,
   FaCalculator,
   FaServer
