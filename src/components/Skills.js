@@ -82,8 +82,7 @@ const Skills = () => {
                 ease: "easeOut"
               }}
               whileHover={{ 
-                scale: 1.08,
-                y: -10,
+               
                 boxShadow: "0 20px 40px rgba(59,130,246,0.35)"
               }}
               className="bg-gradient-to-br from-orange-50 to-pink-50 dark:from-gray-800 dark:to-gray-700 backdrop-blur-sm p-6 rounded-2xl border border-orange-200 dark:border-orange-800 transition-all duration-500"
