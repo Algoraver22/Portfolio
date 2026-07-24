@@ -60,8 +60,7 @@ const Skills = () => {
     { name: "Bootstrap", icon: SiBootstrap, color: "#7952B3" },
   ]
 },
-
-   {
+{
   title: "Backend Development",
   skills: [
     { name: "Node.js", icon: SiNodedotjs, color: "#339933" },
