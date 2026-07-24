@@ -64,7 +64,6 @@ const Skills = () => {
           </h2>
           <div className="w-20 h-1 bg-primary-600 mx-auto mb-8"></div>
           <p className="text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
-            Here are the technologies and tools I work with to bring ideas to life
           </p>
         </motion.div>
 
