@@ -5,7 +5,7 @@ const About = () => {
   const stats = [
     { label: 'Projects', value: '6+' },
     { label: 'Internships', value: '2+' },
-    { label: 'Technologies', value: '32+' },
+    { label: 'CGPA', value: '8.33' },
     { label: 'DSA Problems', value: '400+' },
   ];
 
