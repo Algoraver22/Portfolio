@@ -32,7 +32,8 @@ import {
   FaPython,
   FaDatabase,
   FaMicrosoft,
-  FaCode
+  FaCode,
+  FaCss3Alt
 } from "react-icons/fa";
 const Skills = () => {
   const skillCategories = [
@@ -52,7 +53,7 @@ const Skills = () => {
   title: "Frontend Development",
   skills: [
     { name: "HTML5", icon: SiHtml5, color: "#E34F26" },
-    { name: "CSS3", icon: SiCss, color: "#1572B6" },
+    { name: "CSS3", icon: FaCss3Alt, color: "#1572B6" },
     { name: "React.js", icon: SiReact, color: "#61DAFB" },
     { name: "Next.js", icon: SiNextdotjs, color: "#000000" },
     { name: "Redux Toolkit", icon: SiRedux, color: "#764ABC" },
