@@ -243,25 +243,14 @@ const Skills = () => {
                     >
                       {skill.name}
                     </span>
-
                   </motion.div>
-
                 ))}
-
                               </div>
-
             </motion.div>
-
           ))}
-
         </div>
-
       </div>
-
     </section>
-
   );
-
 };
-
 export default Skills;
