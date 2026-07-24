@@ -97,36 +97,25 @@ const Hero = () => {
           >
             <motion.a
               href="#contact"
-              whileHover={{ 
-                scale: 1.08, 
-                y: -5,
-                boxShadow: "0 25px 50px rgba(34, 197, 94, 0.6), 0 0 0 1px rgba(34, 197, 94, 0.3)"
-              }}
+              whileHover={{
+                    scale: 1.03,
+                    y: -2,
+                    boxShadow: "0 10px 20px rgba(34,197,94,0.18)"
+                  }}
               whileTap={{ scale: 0.95 }}
-              animate={{
-                boxShadow: [
-                  "0 10px 30px rgba(34, 197, 94, 0.3)",
-                  "0 15px 40px rgba(16, 185, 129, 0.4)",
-                  "0 10px 30px rgba(34, 197, 94, 0.3)"
-                ]
-              }}
-              transition={{ 
-                type: "spring",
-                stiffness: 300,
-                damping: 20,
-                boxShadow: { duration: 3, repeat: Infinity, ease: "easeInOut" }
-              }}
-              className="inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-green-500 to-emerald-600 text-white rounded-2xl font-semibold shadow-[0_10px_30px_rgba(34,197,94,0.3)] hover:shadow-[0_25px_50px_rgba(34,197,94,0.6)] transition-all duration-500 relative overflow-hidden group"
-            >
+              
+              transition={{
+                  duration: 0.25,
+                  ease: "easeOut"
+                }}
+             className="inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-green-500 to-emerald-600 text-white rounded-xl font-semibold shadow-lg hover:shadow-xl transition-all duration-300 relative overflow-hidden group"            >
               <motion.div
-                className="absolute inset-0 bg-gradient-to-r from-green-400 to-emerald-500 opacity-0 group-hover:opacity-100"
+                className="absolute inset-0 bg-white/10 opacity-0 group-hover:opacity-100"
                 transition={{ duration: 0.3 }}
               />
               <motion.span 
                 className="relative z-10"
-                whileHover={{ 
-                  textShadow: "0 0 20px rgba(255, 255, 255, 0.8), 0 0 30px rgba(255, 255, 255, 0.6)"
-                }}
+                
                 transition={{ duration: 0.3 }}
               >
                 Hire Me
@@ -134,33 +123,30 @@ const Hero = () => {
             </motion.a>
             
             <motion.a
-              href="/resume/AnuragResume.pdf"
-              download
-              whileHover={{ 
-                scale: 1.08, 
-                y: -5,
-                borderColor: "rgb(249, 115, 22)",
-                color: "rgb(249, 115, 22)",
-                boxShadow: "0 20px 40px rgba(249, 115, 22, 0.4), 0 0 0 1px rgba(249, 115, 22, 0.3)"
-              }}
-              whileTap={{ scale: 0.95 }}
-              transition={{ 
-                type: "spring",
-                stiffness: 300,
-                damping: 20
-              }}
-              className="inline-flex items-center justify-center px-8 py-4 border-2 border-orange-400 text-orange-600 dark:text-orange-400 rounded-2xl font-semibold shadow-[0_8px_25px_rgba(249,115,22,0.2)] hover:shadow-[0_20px_40px_rgba(249,115,22,0.4)] transition-all duration-500 group"
-            >
-              <FiDownload className="mr-2" />
-              <motion.span
-                whileHover={{ 
-                  textShadow: "0 0 15px rgba(249, 115, 22, 0.8), 0 0 25px rgba(249, 115, 22, 0.6)"
-                }}
-                transition={{ duration: 0.3 }}
-              >
-                Download Resume
-              </motion.span>
-            </motion.a>
+  href="/resume/AnuragResume.pdf"
+  download
+  whileHover={{
+    scale: 1.03,
+    y: -2,
+    boxShadow: "0 10px 20px rgba(34,197,94,0.18)"
+  }}
+  whileTap={{ scale: 0.95 }}
+  transition={{
+    duration: 0.25,
+    ease: "easeOut"
+  }}
+  className="inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-green-500 to-emerald-600 text-white rounded-xl font-semibold shadow-lg hover:shadow-xl transition-all duration-300 relative overflow-hidden group"
+>
+  <motion.div
+    className="absolute inset-0 bg-white/10 opacity-0 group-hover:opacity-100"
+    transition={{ duration: 0.3 }}
+  />
+
+  <div className="relative z-10 flex items-center">
+    <FiDownload className="mr-2" size={18} />
+    <span>Download Resume</span>
+  </div>
+</motion.a>
           </motion.div>
 
           {/* Social Links */}
@@ -243,7 +229,6 @@ const Hero = () => {
                   src="/assets/images/Profile.jpeg"
                   alt="Anurag Chaturvedi"
                   className="w-full h-full object-cover object-[center_5%] scale-110"
-
                 />
               </div>
             </div>
