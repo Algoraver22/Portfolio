@@ -62,8 +62,6 @@ const Projects = () => {
           <div className="w-20 h-1 bg-primary-600 mx-auto mb-8"></div>
           <p className="text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
             Here are some of my recent projects that showcase my skills in full-stack development
-
-
           </p>
         </motion.div>
 
@@ -75,7 +73,7 @@ const Projects = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: index * 0.1 }}
-             
+              
               className="bg-gradient-to-br from-orange-50 to-pink-50 dark:from-gray-800 dark:to-gray-700 backdrop-blur-sm rounded-2xl shadow-[0_8px_25px_rgba(59,130,246,0.15)] overflow-hidden border border-orange-200 dark:border-orange-800 group hover:shadow-[0_20px_40px_rgba(59,130,246,0.4)] hover:border-orange-400 dark:hover:border-orange-600 transition-all duration-500"
             >
               {/* Project Image */}
@@ -92,11 +90,20 @@ const Projects = () => {
               <div className="p-6">
                 {/* Category & Timeline */}
                 <div className="flex items-center justify-between mb-4">
-                  <span className="px-3 py-1 bg-gradient-to-r from-orange-100 via-pink-100 to-purple-100 dark:from-orange-900/50 dark:via-pink-900/50 dark:to-purple-900/50 rounded-full border border-orange-200 dark:border-orange-700">
-                    <span className="text-xs font-bold bg-gradient-to-r from-orange-600 via-pink-600 to-purple-600 bg-clip-text text-transparent">
-                      {project.category}
-                    </span>
-                  </span>
+                  <span
+  className={`px-3 py-1 rounded-full border text-xs font-semibold
+    ${
+      project.category === "Full Stack"
+        ? "bg-blue-100 text-blue-700 border-blue-200 dark:bg-blue-900/30 dark:text-blue-300 dark:border-blue-700"
+        : project.category === "Web App"
+        ? "bg-emerald-100 text-emerald-700 border-emerald-200 dark:bg-emerald-900/30 dark:text-emerald-300 dark:border-emerald-700"
+        : project.category === "E-commerce"
+        ? "bg-purple-100 text-purple-700 border-purple-200 dark:bg-purple-900/30 dark:text-purple-300 dark:border-purple-700"
+        : "bg-amber-100 text-amber-700 border-amber-200 dark:bg-amber-900/30 dark:text-amber-300 dark:border-amber-700"
+    }`}
+>
+  {project.category}
+</span>
                   <div className="flex items-center text-xs">
                     <FiCalendar className="mr-1 text-orange-600 dark:text-orange-400" size={12} />
                     <span className="font-bold text-orange-600 dark:text-orange-400">{project.timeline}</span>
