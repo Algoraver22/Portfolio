@@ -61,7 +61,6 @@ const Projects = () => {
           </h2>
           <div className="w-20 h-1 bg-primary-600 mx-auto mb-8"></div>
           <p className="text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
-            Here are some of my recent projects that showcase my skills in full-stack development
           </p>
         </motion.div>
 
