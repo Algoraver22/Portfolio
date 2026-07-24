@@ -80,10 +80,7 @@ const Skills = () => {
                 delay: categoryIndex * 0.1,
                 ease: "easeOut"
               }}
-              whileHover={{ 
-               
-                boxShadow: "0 20px 40px rgba(59,130,246,0.35)"
-              }}
+             
               className="bg-gradient-to-br from-orange-50 to-pink-50 dark:from-gray-800 dark:to-gray-700 backdrop-blur-sm p-6 rounded-2xl border border-orange-200 dark:border-orange-800 transition-all duration-500"
             >
               <h3 className="text-lg font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent mb-6 text-center">
