@@ -232,17 +232,7 @@ const Hero = () => {
                 />
               </div>
             </div>
-            <motion.div
-              animate={{ 
-                scale: [1, 1.05, 1],
-                rotate: [0, 360]
-              }}
-              transition={{ 
-                scale: { duration: 4, repeat: Infinity, ease: "easeInOut" },
-                rotate: { duration: 20, repeat: Infinity, ease: "linear" }
-              }}
-              className="absolute -inset-4 rounded-full bg-gradient-to-r from-blue-400/30 via-purple-400/30 to-pink-400/30 blur-xl -z-10"
-            />
+            
           </motion.div>
 
           
